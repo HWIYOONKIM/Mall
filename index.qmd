@@ -9,7 +9,7 @@ format:
 
 ::: columns
 ::: {.column width="50%"}
-Welcome to Our Mall !
+Welcome to Our Mall !!
 :::
 :::
 
