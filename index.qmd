@@ -1,0 +1,28 @@
+---
+title: "Senior Design Mall"
+editor: visual
+
+format:
+  html:
+    fontsize: 11pt
+---
+
+::: columns
+::: {.column width="50%"}
+Welcome to Our Mall !
+:::
+:::
+
+::: {.column width="50%"}
+::: {.column width="20%"}
+![](nike.jpeg){width="319"}
+
+[Nike](Nike.qmd)
+:::
+
+::: {.column width="20%"}
+![](target.png)
+
+[Target](Target.qmd)
+:::
+:::

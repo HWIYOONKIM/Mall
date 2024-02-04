@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Mall"
+  navbar:
+    search: true
+    left:
+      - href: index.qmd
+        text: Home
+      - text: "Info"
+        file: info.qmd
+      - text: "Target"
+        file: Target.qmd
+      - text: "Nike"
+        file: Nike.qmd
+      - about.qmd
+  page-footer: 
+    center: 
+      - text: "© 2024 Java App Dev"
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual

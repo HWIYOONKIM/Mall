@@ -1,0 +1,9 @@
+---
+title: "info"
+editor: visual
+format:
+  html:
+    fontsize: 18pt
+---
+
+This is info!
