@@ -1,1 +1,1 @@
-Sitemap: https://quarto.pub/senior-mall/sitemap.xml
+Sitemap: https://d60af6ee-906c-4961-b410-e7eafb9c39d9.netlify.app/sitemap.xml
