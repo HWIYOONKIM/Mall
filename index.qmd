@@ -1,7 +1,8 @@
 ---
 title: "Senior Design Mall"
 editor: visual
-
+execute:
+  echo: false
 format:
   html:
     fontsize: 11pt
@@ -9,20 +10,36 @@ format:
 
 ::: columns
 ::: {.column width="50%"}
-Welcome to Our Mall !!
+Welcome to Our Mall !!!
 :::
 :::
 
 ::: {.column width="50%"}
-::: {.column width="20%"}
+::: {.column width="30%"}
 ![](nike.jpeg){width="319"}
 
 [Nike](Nike.qmd)
 :::
 
-::: {.column width="20%"}
+::: {.column width="30%"}
 ![](target.png)
 
 [Target](Target.qmd)
 :::
 :::
+
+<i class="bi bi-envelope-fill"></i> seniormall\@astate.org<br>
+
+<i class="bi bi-telephone-fill"></i> (870) 123-4567<br>
+
+<i class="bi bi-geo-alt-fill"></i> 2105 East, Aggie Rd, Jonesboro, AR<br>
+
+<i class="bi bi-clock-fill"></i> 9:00 to 20:00 Monday to Friday <br>
+
+```{r}
+library(leaflet)
+leaflet(width = "800px", height = "200px") %>%
+  addTiles() %>%
+  addMarkers(lng = -90.686391, lat = 35.828113, popup = "2105 East, Aggie Rd, Jonesboro, AR 72401")
+
+```
