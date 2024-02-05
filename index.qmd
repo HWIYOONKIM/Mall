@@ -16,7 +16,7 @@ Welcome to Our Mall !!!
 
 ::: {.column width="50%"}
 ::: {.column width="30%"}
-![](nike.jpeg){width="319"}
+![](nike.jpeg){width="600"}
 
 [Nike](Nike.qmd)
 :::

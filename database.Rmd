@@ -1,0 +1,43 @@
+---
+echo: false
+---
+
+```{r}
+library(odbc)
+library(DBI)
+library(RSQLite)
+library(RSQL)
+con <- dbConnect(drv = RSQLite::SQLite(),
+                 dbname = ":memory:")
+
+# Assuming 'nike' is a data frame
+nike <- data.frame(
+  Product_ID = c(1, 2, 3),
+  Product_Name = c("Shoe1", "Shoe2", "Shoe3"),
+  Price = c(100, 120, 90)
+)
+
+# Write 'nike' to the database
+dbWriteTable(conn = con, name = "nike", value = nike)
+
+# Add a new table named 'target'
+target <- data.frame(
+  ID = c(1, 2, 3),
+  Product = c("Product1", "Product2", "Product3"),
+  Sales = c(500, 700, 600)
+)
+
+# Write 'target' to the database
+dbWriteTable(conn = con, name = "target", value = target)
+
+walmart <- data.frame(
+  Product_ID = c(1, 2, 3),
+  Product_Name = c("Shoe11", "Shoe22", "Shoe33"),
+  Price = c(100, 120, 90)
+)
+
+dbWriteTable(conn = con, name = "walmart", value = walmart)
+
+# List tables in the database after adding 'nike' and 'target'
+print(dbListTables(con, filter = c("nike", "target")))
+```

@@ -16,6 +16,7 @@ website:
       - text: "Nike"
         file: Nike.qmd
       - about.qmd
+      - database.Rmd
   page-footer: 
     center: 
       - text: "© 2024 Java App Dev"

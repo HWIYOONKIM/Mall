@@ -11,7 +11,7 @@
     "href": "Target.html",
     "title": "Target",
     "section": "",
-    "text": "This is Target"
+    "text": "This is Target!"
   },
   {
     "objectID": "info.html",
@@ -33,5 +33,12 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "database.html",
+    "href": "database.html",
+    "title": "Mall",
+    "section": "",
+    "text": "[1] \"nike\"    \"target\"  \"walmart\""
   }
 ]
